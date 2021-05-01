@@ -20,6 +20,10 @@
         <meta name="twitter:site" content="@fivnex">
         <!-- FontAwesome -->
         <script src="https://kit.fontawesome.com/eb07830743.js" crossorigin="anonymous"></script>
+        <!-- Tailwind CSS -->
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- NAV -->
@@ -42,10 +46,13 @@
             </div>
         </nav>
         <!-- BANNER -->
+        <div class="fixed z-10">
+            <img class="banner-img object-center mx-auto fixed z-10" src="images/marketing/basic-poc.png">
+        </div>
         <section class="section is-large banner-section">
-            <div class="banner-text">
-                <h1 class="title">Potabi</h1>
-                <h2 class="subtitle">Next-generation computing, built on <strong>FreeBSD</strong></h2>
+            <div class="banner-text notification z-0">
+                <h1 class="title text-body">Potabi</h1>
+                <h2 class="subtitle text-body">Next-generation computing, built on <strong>FreeBSD</strong></h2>
                 <div class="buttons">
                     <a class="button is-primary" href="#downloads"><strong>Download</strong></a>
                     <a class="button is-light" href="https://liberapay.com/fivnex/donate" target="_blank">Donate</a>
@@ -53,99 +60,103 @@
                 </div>
             </div>
         </section>
-        <!-- DOWNLOADS -->
-        <section class="section width75percent" id="downloads">
-            <h1 class="title is-large">Downloads</h1>
-            <h2 class="subtitle is-4">For officially supported images, click the Downloads tab (RECOMMENDED)</h2>
-            <h2 class="subtitle is-4">For experimental operating systems built with Potabi code, click the Experimental tab</h2>
-            <div class="tabs is-boxed is-centered main-menu" id="nav">
-                <ul>
-                    <li data-target="pane-1" id="1"><a>Downloads</a></li>
-                    <li data-target="pane-2" id="2"><a>Experimental</a></li>
-                </ul>
-            </div>
-            <div class="tab-content">
-                <div class="tab-pane" id="pane-1">
-                    <h1 class="title">Potabi For Pinephone</h1>
-                    <h2 class="subtitle">The main show for Potabi, download our Pinephone builds</h2>
-                    <table class="table">
-                        <thead><tr><th>Desktop</th><th>Download</th><th>Torrent</th></tr></thead>
-                        <tbody>
-                            <tr><td>Lomiri</td><td>N/A</td><td>N/A</td></tr>
-                            <tr><td>Hazel</td><td>N/A</td><td>N/A</td></tr>
-                            <tr><td>Wiphoc</td><td>N/A</td><td>N/A</td></tr>
-                            <tr><td>Terkey</td><td>N/A</td><td>N/A</td></tr>
-                        </tbody>
-                    </table>
-                    <hr>
-                    <h1 class="title">Potabi for Phones</h1>
-                    <h2 class="subtitle">Find your phone brand/model, and see if Potabi has a build for it!</h2>
-                    <table class="table">
-                        <thead><tr><th>Model</th><th>Desktop</th><th>Download</th><th>Torrent</th></tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>Terkey</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
-                            <tr><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
-                        </tbody>
-                    </table>
+        <section class="global relative z-30">
+            <!-- DOWNLOADS -->
+            <section class="section width75percent" id="downloads">
+                <h1 class="title is-large">Downloads</h1>
+                <h2 class="subtitle is-4">For officially supported images, click the Downloads tab (RECOMMENDED)</h2>
+                <h2 class="subtitle is-4">For experimental operating systems built with Potabi code, click the Experimental tab</h2>
+                <div class="tabs is-boxed is-centered main-menu" id="nav">
+                    <ul>
+                        <li data-target="pane-1" id="1"><a>Downloads</a></li>
+                        <li data-target="pane-2" id="2"><a>Experimental</a></li>
+                    </ul>
                 </div>
-                <div class="tab-pane" id="pane-2">
-                    <div class="section">
-                        <h1 class="title">Potabi for Raspberry Pi</h1>
-                        <h2 class="subtitle">Download Potabi for your Raspberry Pi model!</h2>
-                        <table class="table">
-                            <thead><tr><th>Model</th><th>Desktop</th><th>Download</th><th>Torrent</th></tr></thead>
-                            <tbody>
-                                <tr><td>RPi 4</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
-                                <tr><td>RPi 400</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
-                            </tbody>
-                        </table>
-                        <hr>
-                        <h1 class="title">Potabi for x86_64</h1>
-                        <h2 class="subtitle">Potabi for AMD64 and x86_64 machines!</h2>
-                        <table class="table">
-                            <thead><tr><th>Desktop</th><th>Download</th><th>Torrent</th></tr></thead>
-                            <!-- Lumina, GNOME40, Cherry, KDE Plasma, and Openbox -->
-                            <tbody>
-                                <tr><td>Lumina</td><td>N/A</td><td>N/A</td></tr>
-                                <tr><td>GNOME40</td><td>N/A</td><td>N/A</td></tr>
-                                <tr><td>KDE Plasma</td><td>N/A</td><td>N/A</td></tr>
-                                <tr><td>Cherry</td><td>N/A</td><td>N/A</td></tr>
-                                <tr><td>Openbox</td><td>N/A</td><td>N/A</td></tr>
-                            </tbody>
-                        </table>
-                        <hr>
-                        <h1 class="title">Potabi for RISC-V</h1>
-                        <h2 class="subtitle">Find which RISC-V board/device you own!</h2>
-                        <table class="table">
-                            <thead><tr><th>Model</th><th>Desktop</th><th>Download</th><th>Torrent</th></tr></thead>
-                            <tbody>
-                                <tr><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
-                            </tbody>
-                        </table>
+                <div class="tab-content">
+                    <div class="tab-pane" id="pane-1">
+                        <div class="section">
+                            <h1 class="title">Potabi For Pinephone</h1>
+                            <h2 class="subtitle">The main show for Potabi, download our Pinephone builds</h2>
+                            <table class="table">
+                                <thead><tr><th>Desktop</th><th>Download</th><th>Torrent</th></tr></thead>
+                                <tbody>
+                                    <tr><td>Lomiri</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>Hazel</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>Wiphoc</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>Terkey</td><td>N/A</td><td>N/A</td></tr>
+                                </tbody>
+                            </table>
+                            <hr>
+                            <h1 class="title">Potabi for Phones</h1>
+                            <h2 class="subtitle">Find your phone brand/model, and see if Potabi has a build for it!</h2>
+                            <table class="table">
+                                <thead><tr><th>Model</th><th>Desktop</th><th>Download</th><th>Torrent</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Terkey</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="pane-2">
+                        <div class="section">
+                            <h1 class="title">Potabi for Raspberry Pi</h1>
+                            <h2 class="subtitle">Download Potabi for your Raspberry Pi model!</h2>
+                            <table class="table">
+                                <thead><tr><th>Model</th><th>Desktop</th><th>Download</th><th>Torrent</th></tr></thead>
+                                <tbody>
+                                    <tr><td>RPi 4</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>RPi 400</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+                                </tbody>
+                            </table>
+                            <hr>
+                            <h1 class="title">Potabi for x86_64</h1>
+                            <h2 class="subtitle">Potabi for AMD64 and x86_64 machines!</h2>
+                            <table class="table">
+                                <thead><tr><th>Desktop</th><th>Download</th><th>Torrent</th></tr></thead>
+                                <!-- Lumina, GNOME40, Cherry, KDE Plasma, and Openbox -->
+                                <tbody>
+                                    <tr><td>Lumina</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>GNOME40</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>KDE Plasma</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>Cherry</td><td>N/A</td><td>N/A</td></tr>
+                                    <tr><td>Openbox</td><td>N/A</td><td>N/A</td></tr>
+                                </tbody>
+                            </table>
+                            <hr>
+                            <h1 class="title">Potabi for RISC-V</h1>
+                            <h2 class="subtitle">Find which RISC-V board/device you own!</h2>
+                            <table class="table">
+                                <thead><tr><th>Model</th><th>Desktop</th><th>Download</th><th>Torrent</th></tr></thead>
+                                <tbody>
+                                    <tr><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <hr>
+            <!-- ABOUT -->
+            <section class="section width75percent" id="about">
+                <h1 class="title">About Potabi</h1>
+                <p>Potabi is a commercial open-source software (COSS) application built on top of FreeBSD. Designed by <a class="text-pink-800 border-b border-pink-800" href="https://fivnex.co" target="_blank">Fivnex</a>, and is built primarily for enterprise users as well as personal phone users. Potabi's name comes from "Potential" and "Ability" which combine to provide power to the users. Potabi will always use the latest available version of FreeBSD. You can look at Potabi's sponsors below!<br><br>Potabi uses TCSH as the default user/system shell. Potabi uses the mobile desktops Lomiri, Hazel - custom-made for Potabi, Wiphoc - a Windows Phone UI/UX clone designed for Potabi, and Terkey - a shell terminal for phones (with the only GUI being a keyboard). For desktop users of Potabi, users have the choice of the Lumina, GNOME40, Cherry - a GNOME3 continuation built by Fivnex, KDE Plasma, and Openbox. Potabi's default browser is currently undecided, with the default search engine being <a class="text-pink-800 border-b border-pink-800" href="https://ecosia.org" target="_blank">Ecosia</a> - a privacy focused search engine that plants trees. Potabi Mobile for personal use will come with built-in APK support (through Anbox), as well as F-Droid.</p>
+            </section>
+            <hr>
+            <!-- Sponsors -->
+            <section class="section content width75percent" id="sponsors">
+                <h1 class="title">Potabi Sponsors</h1>
+                <p>No one currently sponsors Potabi, you can be <a class="text-pink-500" href="https://liberapay.com/fivnex/donate" target="_blank">the first</a>!</p>
+            </section>
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>&copy; Fivnex. All rights reserved.</p>
+                    <p>Contact us: <a class="text-pink-500" href="mailto:potabi@fivnex.co">potabi@fivnex.co</a></p>
+                </div>
+            </footer>
         </section>
-        <hr>
-        <!-- ABOUT -->
-        <section class="section width75percent" id="about">
-            <h1 class="title">About Potabi</h1>
-            <p>Potabi is a commercial open-source software (COSS) application built on top of FreeBSD. Designed by <a href="https://fivnex.co" target="_blank">Fivnex</a>, and is built primarily for enterprise users as well as personal phone users. Potabi's name comes from "Potential" and "Ability" which combine to provide power to the users. Potabi will always use the latest available version of FreeBSD. You can look at Potabi's sponsors below!<br><br>Potabi uses TCSH as the default user/system shell. Potabi uses the mobile desktops Lomiri, Hazel - custom-made for Potabi, Wiphoc - a Windows Phone UI/UX clone designed for Potabi, and Terkey - a shell terminal for phones (with the only GUI being a keyboard). For desktop users of Potabi, users have the choice of the Lumina, GNOME40, Cherry - a GNOME3 continuation built by Fivnex, KDE Plasma, and Openbox. Potabi's default browser is currently undecided, with the default search engine being <a href="https://ecosia.org" target="_blank">Ecosia</a> - a privacy focused search engine that plants trees. Potabi Mobile for personal use will come with built-in APK support (through Anbox), as well as F-Droid.</p>
-        </section>
-        <hr>
-        <!-- Sponsors -->
-        <section class="section width75percent" id="sponsors">
-            <h1 class="title">Potabi Sponsors</h1>
-            <p>No one currently sponsors Potabi, you can be <a href="https://liberapay.com/fivnex/donate" target="_blank">the first</a>!</p>
-        </section>
-        <!-- FOOTER -->
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>&copy; Fivnex. All rights reserved.</p>
-                <p>Contact us: <a href="mailto:potabi@fivnex.co">potabi@fivnex.co</a></p>
-            </div>
-        </footer>
         <script src="./scripts/tabs.js"></script>
     </body>
 </html>
