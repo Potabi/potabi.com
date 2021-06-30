@@ -1,0 +1,58 @@
+(component NavBar ()
+    (div class="navbar navbar-purple"
+        (import "https://kit.fontawesome.com/eb07830743.js")
+        (div class="navbar-brand"
+            (a class="navbar-item" href="https://potabi.com"
+                (img src="https://raw.githubusercontent.com/FivnexWeb/potabi.fivnex.co/images/logo.png")
+                (h1 class="subtitle has-text-white has-text-weight-bold" "Potabi Systems")))
+        (div class="navbar-menu is-vcentered" id="navi"
+            (div class="navbar-start"
+                (a class="navbar-item has-text-white" href="#" "Products")
+                (a class="navbar-item has-text-white" href="#" "Partners")
+                (a class="navbar-item has-text-white" href="#" "Support")
+                (a class="navbar-item has-text-white" href="#" "Developers")
+                (a class="navbar-item has-text-white" href="#" "Security")
+                (a class="navbar-item has-text-white" href="#" "Store"))
+            (div class="navbar-end"
+                (a class="navbar-item has-text-white" href="#"
+                    (i class="fab fa-github"))
+                (a class="navbar-item has-text-white" href="#"
+                    (i class="fab fa-twitter"))
+                (a class="navbar-item has-text-white" href="#"
+                    (i class="fab fa-discord"))))))
+(component GlobalHeader ()
+   (link rel="icon" href="https://raw.githubusercontent.com/FivnexWeb/potabi.fivnex.co/images/ico.png"))
+(component Footer ()
+    (div class="section footer has-background-black-bis"
+        (div class="columns"
+            (div class="column is-1")
+            (div class="column"
+                (div class="columns"
+                    (div class="column"
+                        (p "Copyright &copy; Fivnex, LLC"))
+                    (div class="column"
+                        (p "Products")
+                        (a href="#" "Potabi Server Enterprise")(br)
+                        (a href="#" "Potabi Server Free")(br)
+                        (a href="#" "Potabi Desktop Enterprise")(br)
+                        (a href="#" "Potabi Desktop Free")(br)
+                        (a href="#" "Potabi Web Desktop")(br)
+                        (a href="#" "Potabi Mobile"))
+                    (div class="column"
+                        (p "Connect With Us")
+                        (a href="#" target="_blank" (i class="fab fa-twitter") "Twitter")(br)
+                        (a href="#" target="_blank" (i class="fab fa-discord") "Discord")(br)
+                        (a href="#" target="_blank" (i class="fas fa-comment-dots") "Matrix")(br)
+                        (a href="#" target="_blank" (i class="fab fa-telegram") "Telegram")(br)
+                        (a href="https://www.reddit.com/r/PotabiSystems/" target="_blank" (i class="fab fa-reddit") "Reddit")(br)
+                        (a href="https://github.com/Potabi" target="_blank" (i class="fab fa-github") "Github"))
+                    (div class="column"
+                        (p "General")
+                        (a href="#" "About Us")(br)
+                        (a href="#" "Terms of Service")(br)
+                        (a href="#" "Privacy Policy")(br)
+                        (a href="#" "Disclaimers")(br)
+                        (a href="#" "Contact")(br)
+                        (a href="#" "Support")))
+            (div class="column is-1")))))
+(export (NavBar, GlobalHeader, Footer))

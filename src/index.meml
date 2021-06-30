@@ -1,0 +1,71 @@
+(head
+    (title "Potabi Systems")
+    (import "./style/css/main.css")
+    (import (NavBar, GlobalHeader, Footer) from "./comps.meml"))
+    (GlobalHeader "")
+(body
+    (NavBar "")
+    (div class="hero banner has-tilt is-fullheight"
+        (div class="section is-large reverse-tilt"
+            (div class="columns is-vcentered"
+                (div class="column"
+                    (p class="title is-1 has-text-white has-text-right slight-margin-right banner-text" "A complete enterprise experience with a complete ecosystem for all."))
+                (div class="column is-three-fifths"
+                    (img class="banner-img" src="https://raw.githubusercontent.com/FivnexWeb/potabi.fivnex.co/01f304c807bafc778dbc9a9dfd1473c97f9ba115/support-team.svg" )))))
+    (div class="section"
+        (div class="columns" (div class="column is-1")(div class="column" (h1 class="title" "A Non-Linux Enterprise Suite"))) // Simple though ugly solution
+        (div class="columns is-vcentered products"
+            // Empty Columns are for quick and easy padding
+            (div class="column is-1")
+            (div class="column notification is-danger"
+                (h1 class="title" (i class="fas fa-server"))
+                (h1 class="title" "Servers"(br))
+                (a class="button is-white is-outlined" href="#" "See Solutions"))
+            (div class="column notification is-danger"
+                (h1 class="title" (i class="fas fa-desktop"))
+                (h1 class="title" "Desktop"(br))
+                (a class="button is-white is-outlined" href="#" "See Solutions"))
+            (div class="column notification is-danger"
+                (h1 class="title" (i class="fas fa-mobile-alt"))
+                (h1 class="title" "Mobile"(br))
+                (a class="button is-white is-outlined" href="#" "See Solutions"))
+            (div class="column is-1"))(br))
+    (div class="section has-background-success-dark has-addons-white has-text-white"
+        (div class="columns" (div class="column is-1")(div class="column" (h1 class="title has-text-white" "About Potabi Systems")))
+        (div class="columns" 
+            (div class="column is-1")
+            (div class="column"
+                (h1 class="subtitle has-text-white" "What is Potabi?")
+                (p "Potabi Systems is a " (a href="https://fivnex.co" target="_blank" "Fivnex, LLC") " produced collection of operating systems built on FreeBSD as a replacement to Linux systems. Potabi is designed to be secure, fast, andsimple. Enterprise teams want less bloated, faster, and easier to control and manage systems. That is why we aim to avoid bloatware as much as possible while still including systems to make it easier for you to manage your teams. Potabi comes with Linux compatibility layers, meaning it is our goal to make sure your existing Linux-based systems are still comparible."))
+            (div class="column"
+                (h1 class="subtitle has-text-white" "Open Source Software")
+                (p "Potabi is 100% open-source software. This means youare in 100% control of your privacy, your security, and your stability. Something that we include in the system that makes things slower or more complicated? No worries, just replace it. Once you have the operating system installed, it is yours to work with. Your subscription token expired? No worries, your system will continue, and only some non-critical private business systems will stop working. Want to upgrade to enterprise or downgrade to the free server? It is all within your control, without critical systems breaking."))
+            (div class="column is-1"))
+        (div class="columns" 
+            (div class="column is-1")
+            (div class="column"
+                (h1 class="subtitle has-text-white" "Multiple System Variants")
+                (p "Potabi doesn't just work on servers. Potabi is designed for desktop, mobile, and servers. Aiming to bring convergence and unity to all. We also don't just lazily change a few things per system. Every system is designed to do its best in the field it is given. We don't just take our desktop version, make small modifications, and call it a server system,no. We make our systems intentionally. Potabi isn't made to be Yet Another XYZ. Everything is designed with intent, and reason."))
+            (div class="column"
+                (h1 class="subtitle has-text-white" "No more Linuxisms")
+                (p "We define Linuxism slightly differently. An application not critical to the functions of the Linux kernel that only work on Linux. These kinds of software are severely harmful to the open-source software ecosystem because it makes competition more difficul twith Linux. Unlike the BSDs, which Potabi is built on FreeBSD, Linux is a singular operating system ecosystem. This means Linuxism restrictsother operating systems and makes things harder to function, except for the Linux operating system."))
+            (div class="column is-1"))(br)
+        (div class="columns"
+            (div class="column is-1")
+            (div class="column"
+                (h1 class="subtitle has-text-white has-text-centered" "Our Mission...")
+                (p class="has-text-centered" "... is to bring a new generation of systems to inspire the world to truly invest into open-source software. For too long have operating systems like the BSD systems, Illumos and its forks, and generally anything not MacOS, Windows, or Linux have taken every aspect of what defines enterprise-grade software. The open source ecosystem, with all of the Linuxisms and lack of true competition between projects, is uncompetative with proprietary software vendors. We are here to introduce competition, push for innovation, and make open source a competative enterprise force. It is rare to see massive corporations offer open source to everyone, and see them innovate. It is time to change that."))
+            (div class="column is-1")))
+    (div class="section has-background-black-ter webring has-text-white"
+        (div class="columns"
+            (div class="column is-1")
+            (div class="column"
+                (div class="columns"
+                    (div class="column is-two-fifths"
+                        (img src="https://raw.githubusercontent.com/FivnexWeb/potabi.fivnex.co/images/freedomwebringmember.png"))
+                    (div class="column"
+                        (h1 class="title has-text-white" "Proud supporters of Freedom Web Ring")
+                        (p (a href="https://cygo.network/webring" target="_blank" "Freedom Web Ring") " is a " (a href="https://cygo.network/" target="_blank" "Cygo Network") " project that aims to show websites that support the free flow of information of internet. Flow of information not under the control of a government agency or political organization. Freedom Web Ring is a symbol of privacy, honesty, and allowence of free and open flow of any information over the internet. As a libre commercial open-source software product, we stand proudly with this messaging." (br))
+                        (p "Fivnex, LLC, the company that runs and manages the Potabi Systems project believes in the transperent and open flow of information online. While we do not force our customer-base to support Freedom Web Ring, nor do we force customers to believe the same ideals as us, (we have a term for people who force their ideas of 'freedom' onto others, a gnukkit) we do strongly believe in the open, uncensored flow of information online. And that will never change."))))
+            (div class="column is-1")))
+    (Footer ""))
