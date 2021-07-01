@@ -1,4 +1,23 @@
 {
-    "pages": ["index", "terms", "privacy"],
+    "pages": [
+        "index", 
+        "terms", 
+        "privacy", 
+        "security", 
+        "support", 
+        "disclaimers", 
+        "about", 
+        "developers", 
+        "product", 
+        "support", 
+        "server", 
+        "server-enterprise", 
+        "desktop", 
+        "desktop-enterprise", 
+        "web-desktop",
+        "mobile", 
+        "contact",
+        "store"
+    ],
     "publicDir":"public"
 }

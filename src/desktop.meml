@@ -1,0 +1,35 @@
+(head
+    (title "Potabi Systems")
+    (import "./style/css/main.css")
+    (import (NavBar, GlobalHeader, Footer) from "./comps.meml"))
+    (GlobalHeader "")
+(body
+    (NavBar "")
+    (div class="section"
+        (div class="columns"
+            (div class="column is-1")
+            (div class="column"
+                (h1 class="title" "Potabi Desktop")
+                // Maintnance information.
+                // Make sure to change the version of FreeBSD. Looks like "FreeBSD XY.Z"
+                (p "Welcome to the Potabi Desktop operating system. Currently available is version Beta 1A. This release is based on FreeBSD 13. Potabi Desktop uses the MATE desktop environment with Potabi-specific graphical settings. What to expect in this release? As the first-ever release of Potabi Desktop, the main goal is to start designing the build systems and agree on the best strategies, tools, and systems, that can make a better desktop system for all of us. This release has five goals: start working with and improving build tools, better understand the strengths and weaknesses of the software, try and predict and work on future issues, design the desktop environment, and see what users desire."))
+            (div class="column is-1")))
+    (div class="section columns"
+        (div class="column product-info is-4 has-background-success-dark py-4"
+            (div class="columns"
+                (div class="column is-1")
+                (div class="column has-text-centered has-text-white"
+                    (h1 class="title is-3 has-text-white" "Release Beta 1A")
+                    (p "This release, without an official code name, is the first ever desktop release.")(br)
+                    (a href="#" class="button is-outlined is-white" "Download"))
+                (div class="column is-1")))
+        (div class="column product-image has-background-danger-dark py-4"
+            (p class="has-text-danger-dark" "This should be an image, but we are still waiting for our artist commission to come in!")))
+    (div class="section has-background-info-dark"
+        (div class="columns"
+            (div class="column is-1")
+            (div class="column has-text-white"
+                (h1 class="title has-text-white has-text-centered" "Remixes")
+                (p class="has-text-centered" "We proudly display various remixes of the project. We will be going further into detail of Potabi remixes and their rules later once the project is grown. Know that no, remixes are NOT considered seperate operating systems. Rather, a remix is a community maintained modification to Potabi, with some rules and regulations."(br)"We generally would not use any system that advertises itself as a 'fork of Potabi' that is not listed as a remix. The reason is the quality and stability may not compare."))
+            (div class="column is-1")))
+    (Footer ""))
