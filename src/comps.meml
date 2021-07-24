@@ -3,7 +3,7 @@
         (import "https://kit.fontawesome.com/eb07830743.js")
         (div class="navbar-brand"
             (a class="navbar-item" href="https://potabi.com"
-                (img src="https://raw.githubusercontent.com/FivnexWeb/potabi.fivnex.co/images/logo.png")
+                (img src="https://raw.githubusercontent.com/potabi/potabi.com/images/logo.png")
                 (h1 class="subtitle has-text-white has-text-weight-bold" "Potabi Systems")))
         (div class="navbar-menu is-vcentered" id="navi"
             (div class="navbar-start"
@@ -21,7 +21,7 @@
                 (a class="navbar-item has-text-white" href="#"
                     (i class="fab fa-discord"))))))
 (component GlobalHeader ()
-   (link rel="icon" href="https://raw.githubusercontent.com/FivnexWeb/potabi.fivnex.co/images/ico.png"))
+   (link rel="icon" href="https://raw.githubusercontent.com/Potabi/potabi.com/images/ico.png"))
 (component Footer ()
     (div class="section footer has-background-black-bis"
         (div class="columns"
@@ -29,7 +29,7 @@
             (div class="column"
                 (div class="columns"
                     (div class="column"
-                        (p "Copyright &copy; Fivnex, LLC"))
+                        (p "Copyright &copy; Kai Lyons and Potabi contributors"))
                     (div class="column"
                         (p "Products")
                         (a href="#" "Potabi Server Enterprise")(br)

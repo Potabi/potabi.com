@@ -11,7 +11,7 @@
                 (div class="column"
                     (p class="title is-1 has-text-white has-text-right slight-margin-right banner-text" "A complete enterprise experience with a complete ecosystem for all."))
                 (div class="column is-three-fifths"
-                    (img class="banner-img" src="https://raw.githubusercontent.com/FivnexWeb/potabi.fivnex.co/01f304c807bafc778dbc9a9dfd1473c97f9ba115/support-team.svg" )))))
+                    (img class="banner-img" src="https://raw.githubusercontent.com/Potabi/potabi.com/01f304c807bafc778dbc9a9dfd1473c97f9ba115/support-team.svg" )))))
     (div class="section"
         (div class="columns" (div class="column is-1")(div class="column" (h1 class="title" "A Non-Linux Enterprise Suite"))) // Simple though ugly solution
         (div class="columns is-vcentered products"
@@ -36,7 +36,7 @@
             (div class="column is-1")
             (div class="column"
                 (h1 class="subtitle has-text-white" "What is Potabi?")
-                (p "Potabi Systems is a " (a href="https://fivnex.co" target="_blank" "Fivnex, LLC") " produced collection of operating systems built on FreeBSD as a replacement to Linux systems. Potabi is designed to be secure, fast, andsimple. Enterprise teams want less bloated, faster, and easier to control and manage systems. That is why we aim to avoid bloatware as much as possible while still including systems to make it easier for you to manage your teams. Potabi comes with Linux compatibility layers, meaning it is our goal to make sure your existing Linux-based systems are still comparible."))
+                (p "Potabi Systems is an independently produced collection of operating systems built on FreeBSD as a replacement to Linux systems. Potabi is designed to be secure, fast, andsimple. Enterprise teams want less bloated, faster, and easier to control and manage systems. That is why we aim to avoid bloatware as much as possible while still including systems to make it easier for you to manage your teams. Potabi comes with Linux compatibility layers, meaning it is our goal to make sure your existing Linux-based systems are still comparible."))
             (div class="column"
                 (h1 class="subtitle has-text-white" "Open Source Software")
                 (p "Potabi is 100% open-source software. This means youare in 100% control of your privacy, your security, and your stability. Something that we include in the system that makes things slower or more complicated? No worries, just replace it. Once you have the operating system installed, it is yours to work with. Your subscription token expired? No worries, your system will continue, and only some non-critical private business systems will stop working. Want to upgrade to enterprise or downgrade to the free server? It is all within your control, without critical systems breaking."))
@@ -62,10 +62,10 @@
             (div class="column"
                 (div class="columns"
                     (div class="column is-two-fifths"
-                        (img src="https://raw.githubusercontent.com/FivnexWeb/potabi.fivnex.co/images/freedomwebringmember.png"))
+                        (img src="https://raw.githubusercontent.com/potabi/potabi.com/images/freedomwebringmember.png"))
                     (div class="column"
                         (h1 class="title has-text-white" "Proud supporters of Freedom Web Ring")
                         (p (a href="https://cygo.network/webring" target="_blank" "Freedom Web Ring") " is a " (a href="https://cygo.network/" target="_blank" "Cygo Network") " project that aims to show websites that support the free flow of information of internet. Flow of information not under the control of a government agency or political organization. Freedom Web Ring is a symbol of privacy, honesty, and allowence of free and open flow of any information over the internet. As a libre commercial open-source software product, we stand proudly with this messaging." (br))
-                        (p "Fivnex, LLC, the company that runs and manages the Potabi Systems project believes in the transperent and open flow of information online. While we do not force our customer-base to support Freedom Web Ring, nor do we force customers to believe the same ideals as us, (we have a term for people who force their ideas of 'freedom' onto others, a gnukkit) we do strongly believe in the open, uncensored flow of information online. And that will never change."))))
+                        (p "The Potabi Systems project believes in the transperent and open flow of information online. While we do not force our customer-base to support Freedom Web Ring, nor do we force customers to believe the same ideals as us, (we have a term for people who force their ideas of 'freedom' onto others, a gnukkit) we do strongly believe in the open, uncensored flow of information online. And that will never change."))))
             (div class="column is-1")))
     (Footer ""))
