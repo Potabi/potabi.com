@@ -18,12 +18,16 @@
             (div class="columns"
                 (div class="column is-1")
                 (div class="column has-text-centered has-text-white"
-                    (h1 class="title is-3 has-text-white" "Release Beta 1A")
-                    (p "This release, without an official code name, is the first ever desktop release.")(br)
-                    (a href="#" class="button is-outlined is-white" "Download"))
-                (div class="column is-1")))
+                    (h1 class="title is-3 has-text-white" "Release Beta 1A Luna")
+                    (a href="#" class="button is-outlined is-white" "Download")(br)(br)
+                    (p "Changelog:"(br)
+                        "- Update branding"(br)
+                        "- Create initial ISO builder"(br)
+                        "- Added MATE desktop"
+                    )))
+                (div class="column is-1"))
         (div class="column product-image has-background-danger-dark py-4"
-            (p class="has-text-danger-dark" "This should be an image, but we are still waiting for our artist commission to come in!")))
+            (img class="rounded" src="https://raw.githubusercontent.com/Potabi/potabi.com/images/potabi-bg.png")))
     (div class="section has-background-info-dark"
         (div class="columns"
             (div class="column is-1")
