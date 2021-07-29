@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://github.com/Potabi/potabi.com/blob/images/Azonix.otf?raw=true");
+@import url("https://raw.githubusercontent.com/Potabi/potabi.com/images/Azonix.otf");
 
 * {
     font-family: "Roboto", sans-serif;
