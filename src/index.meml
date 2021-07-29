@@ -82,7 +82,7 @@
             (div class="column is-1")
             (div class="column"
             (h1 class="title has-text-white has-text-center w-full" "Supporting These Oranizations")
-            (p "None of these organizations are affiliated with the Potabi project, nor are we affiliated with these organizations. This is to simply express Potabi's support in these organizations. Not all of these are non-ptofit foundations, some of these are just projects, communities, or even for-profits.")(br)
+            (p "None of these organizations are affiliated with the Potabi project, nor are we affiliated with these organizations. This is to simply express Potabi's support in these organizations. Not all of these are non-profit foundations, some of these are just projects, communities, or even for-profits.")(br)
                 (div class="columns is-centered is-multiline"
                     // Code to add a new organization: 
                     // (div class="column"
