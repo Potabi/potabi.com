@@ -11,5 +11,5 @@
 }
 
 *.brand-font {
-    font-family: Azonix, sans-serif;
+    font-family: Azonix, sans-serif; !important
 }
