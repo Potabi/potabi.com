@@ -1,58 +1,53 @@
-(component NavBar ()
-    (div class="navbar navbar-purple"
+(component NavBar () ((div class="navbar navbar-purple"
         (import "https://kit.fontawesome.com/eb07830743.js")
         (div class="navbar-brand"
             (a class="navbar-item" href="https://potabi.com"
                 (img src="https://raw.githubusercontent.com/potabi/potabi.com/images/logo.png")
-                (h1 class="subtitle has-text-white has-text-weight-bold" "Potabi Systems")))
+                (h1 class="subtitle has-text-white has-text-weight-bold brand-font mt-2" "Potabi Systems")))
         (div class="navbar-menu is-vcentered" id="navi"
             (div class="navbar-start"
-                (a class="navbar-item has-text-white" href="#" "Products")
-                (a class="navbar-item has-text-white" href="#" "Partners")
-                (a class="navbar-item has-text-white" href="#" "Support")
-                (a class="navbar-item has-text-white" href="#" "Developers")
-                (a class="navbar-item has-text-white" href="#" "Security")
-                (a class="navbar-item has-text-white" href="#" "Store"))
+                (a class="navbar-item has-text-white" href="/developers" "Developers")
+                (a class="navbar-item has-text-white" href="/security" "Security")
+                (a class="navbar-item has-text-white" href="/support" "Support")
+                (a class="navbar-item has-text-white" href="/store" "Store"))
             (div class="navbar-end"
-                (a class="navbar-item has-text-white" href="#"
+                (a class="navbar-item has-text-white" href="https://github.com/potabi"
                     (i class="fab fa-github"))
-                (a class="navbar-item has-text-white" href="#"
+                (a class="navbar-item has-text-white" href="https://twitter.com/PotabiSystems"
                     (i class="fab fa-twitter"))
-                (a class="navbar-item has-text-white" href="#"
-                    (i class="fab fa-discord"))))))
-(component GlobalHeader ()
-   (link rel="icon" href="https://raw.githubusercontent.com/Potabi/potabi.com/images/ico.png"))
-(component Footer ()
-    (div class="section footer has-background-black-bis"
+                (a class="navbar-item has-text-white" href="https://discord.com/invite/8s8nNwndtF"
+                    (i class="fab fa-discord")))))))
+                    
+(component GlobalHeader () (
+    (link rel="icon" href="https://raw.githubusercontent.com/Potabi/potabi.com/images/ico.png")
+    (link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Potabi/potabi.com@images/file.css")
+    (link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Potabi/potabi.com@images/main.css")))
+   
+(component Footer () ((div class="section footer has-background-black-bis"
         (div class="columns"
             (div class="column is-1")
             (div class="column"
                 (div class="columns"
                     (div class="column"
-                        (p "Copyright &copy; Kai Lyons and Potabi contributors"))
+                        (p "Copyright &copy; Kai Lyons and Potabi contributors")
+                        (p "Trademarks (&trade; &reg;)and logo copyrights (&copy;) to their respective owners."))
                     (div class="column"
                         (p "Products")
-                        (a href="#" "Potabi Server Enterprise")(br)
-                        (a href="#" "Potabi Server")(br)
-                        (a href="#" "Potabi Desktop Enterprise")(br)
-                        (a href="#" "Potabi Desktop")(br)
-                        (a href="#" "Potabi Web Desktop")(br)
-                        (a href="#" "Potabi Mobile"))
+                        (a href="/server" "Potabi Server")(br)
+                        (a href="/desktop" "Potabi Desktop")(br)
+                        (a href="/mobile" "Potabi Mobile"))
                     (div class="column"
                         (p "Connect With Us")
-                        (a href="#" target="_blank" (i class="fab fa-twitter") "Twitter")(br)
-                        (a href="#" target="_blank" (i class="fab fa-discord") "Discord")(br)
-                        (a href="#" target="_blank" (i class="fas fa-comment-dots") "Matrix")(br)
-                        (a href="#" target="_blank" (i class="fab fa-telegram") "Telegram")(br)
-                        (a href="https://www.reddit.com/r/PotabiSystems/" target="_blank" (i class="fab fa-reddit") "Reddit")(br)
+                        (a href="https://twitter.com/PotabiSystems" target="_blank" (i class="fab fa-twitter") "Twitter")(br)
+                        (a href="https://discord.com/invite/8s8nNwndtF" target="_blank" (i class="fab fa-discord") "Discord")(br)
+                        (a href="https://www.reddit.com/r/Potabi/" target="_blank" (i class="fab fa-reddit") "Reddit")(br)
                         (a href="https://github.com/Potabi" target="_blank" (i class="fab fa-github") "Github"))
                     (div class="column"
                         (p "General")
-                        (a href="#" "About Us")(br)
-                        (a href="./terms" "Terms of Service")(br)
-                        (a href="./privacy" "Privacy Policy")(br)
-                        (a href="#" "Disclaimers")(br)
-                        (a href="#" "Contact")(br)
-                        (a href="#" "Support")))
-            (div class="column is-1")))))
+                        (a href="/about" "About Us")(br)
+                        (a href="/privacy" "Privacy Policy")(br)
+                        (a href="/store" "Store")(br)
+                        (a href="/developers" "Developers")(br)
+                        (a href="/support" "Support")))
+            (div class="column is-1"))))))
 (export (NavBar, GlobalHeader, Footer))

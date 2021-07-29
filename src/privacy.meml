@@ -1,8 +1,7 @@
 (head
     (title "Potabi Systems")
-    (import "./style/css/main.css")
-    (import (NavBar, GlobalHeader, Footer) from "./comps.meml"))
-    (GlobalHeader "")
+    (import (NavBar, GlobalHeader, Footer) from "./comps.meml")
+    (GlobalHeader ""))
 (body
     (NavBar "")
     (div class="section"

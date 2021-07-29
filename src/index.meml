@@ -1,8 +1,7 @@
 (head
     (title "Potabi Systems")
-    (import "./style/css/main.css")
-    (import (NavBar, GlobalHeader, Footer) from "./comps.meml"))
-    (GlobalHeader "")
+    (import (NavBar, GlobalHeader, Footer) from "./comps.meml")
+    (GlobalHeader ""))
 (body
     (NavBar "")
     (div class="hero banner has-tilt is-fullheight"
@@ -20,15 +19,15 @@
             (div class="column notification is-danger"
                 (h1 class="title" (i class="fas fa-server"))
                 (h1 class="title" "Servers"(br))
-                (a class="button is-white is-outlined" href="#" "See Solutions"))
+                (a class="button is-white is-outlined" href="/server" "See Downloads"))
             (div class="column notification is-danger"
                 (h1 class="title" (i class="fas fa-desktop"))
                 (h1 class="title" "Desktop"(br))
-                (a class="button is-white is-outlined" href="#" "See Solutions"))
+                (a class="button is-white is-outlined" href="/desktop" "See Downloads"))
             (div class="column notification is-danger"
                 (h1 class="title" (i class="fas fa-mobile-alt"))
                 (h1 class="title" "Mobile"(br))
-                (a class="button is-white is-outlined" href="#" "See Solutions"))
+                (a class="button is-white is-outlined" href="/mobile" "See Downloads"))
             (div class="column is-1"))(br))
     (div class="section has-background-success-dark has-addons-white has-text-white"
         (div class="columns" (div class="column is-1")(div class="column" (h1 class="title has-text-white" "About Potabi Systems")))
@@ -36,36 +35,116 @@
             (div class="column is-1")
             (div class="column"
                 (h1 class="subtitle has-text-white" "What is Potabi?")
-                (p "Potabi Systems is an independently produced collection of operating systems built on FreeBSD as a replacement to Linux systems. Potabi is designed to be secure, fast, andsimple. Enterprise teams want less bloated, faster, and easier to control and manage systems. That is why we aim to avoid bloatware as much as possible while still including systems to make it easier for you to manage your teams. Potabi comes with Linux compatibility layers, meaning it is our goal to make sure your existing Linux-based systems are still comparible."))
+                (p "Potabi is an independently produced operating system. Potabi aims to bring an alternative to the common Linux systems, using the BSD philsophy. Designed to be secure, fast, and simple. Developers and enterprises want less bloated, more secure, and better managed and developed operating systems. Linux operating systems no longer offer this, and it's gotten so bad, it's down to the kernel. The Linux kernel adds two million lines of code per year, or about one Jurassic Park's worth of code every single year. That opens up a lot of potential security holes."))
             (div class="column"
                 (h1 class="subtitle has-text-white" "Open Source Software")
-                (p "Potabi is 100% open-source software. This means youare in 100% control of your privacy, your security, and your stability. Something that we include in the system that makes things slower or more complicated? No worries, just replace it. Once you have the operating system installed, it is yours to work with. Your subscription token expired? No worries, your system will continue, and only some non-critical private business systems will stop working. Want to upgrade to enterprise or downgrade to the free server? It is all within your control, without critical systems breaking."))
+                (p "Potabi is, is is built on, 100% open-source software. This is no different to how Linux functions. This means you can look at all thirteen million lines of code within the " (a href="https://github.com/potabi/potabi-src" target="_blank" "potabi-src") " repository. This is the thirteen million lines of code for the underlying system for all parts of the operating system, including the server, mobile, and desktop editions. Also, yes, you can just run this underlying system, add your own improvements without having to spend hours (maybe even days or weeks) adding the same small improvements for every edition we release."))
             (div class="column is-1"))
         (div class="columns" 
             (div class="column is-1")
             (div class="column"
                 (h1 class="subtitle has-text-white" "Multiple System Variants")
-                (p "Potabi doesn't just work on servers. Potabi is designed for desktop, mobile, and servers. Aiming to bring convergence and unity to all. We also don't just lazily change a few things per system. Every system is designed to do its best in the field it is given. We don't just take our desktop version, make small modifications, and call it a server system,no. We make our systems intentionally. Potabi isn't made to be Yet Another XYZ. Everything is designed with intent, and reason."))
+                (p "Unlike many of the BSD branded operating systems - of which we derive from FreeBSD - as well as the majority of Linux distributions, we don't design one operating system variant. We have our server variant, designed and built specifically for server systems. We have our desktop variant, designed and built specifically for the needs of desktop operating system users.")
+                (p "Our goal with providing multiple variants for server and desktop users is to try and actually give users, developers, and enterprises the option to run Potabi as they see fit. Having a singular operating system to manage is so much more simple than having two, three, or maybe thirty five depending on the type of person you are.")
+                (p "Unlike many Linux systems, the server edition we provide is not just our desktop version, with the desktop environment removed, or even just rebranded. We felt like taking the easy way out would be harmful towards the developers we aim to help. We designed server for servers, and desktop for desktops."))
             (div class="column"
-                (h1 class="subtitle has-text-white" "No more Linuxisms")
-                (p "We define Linuxism slightly differently. An application not critical to the functions of the Linux kernel that only work on Linux. These kinds of software are severely harmful to the open-source software ecosystem because it makes competition more difficul twith Linux. Unlike the BSDs, which Potabi is built on FreeBSD, Linux is a singular operating system ecosystem. This means Linuxism restrictsother operating systems and makes things harder to function, except for the Linux operating system."))
+                (h1 class="subtitle has-text-white" "13,000,000 vs 19,000,000")
+                (p "Every Linux system runs on the Linux kernel. The Linux kernel has a grand total of nineteen million lines of code, with a Jurassic Park's worth added every year. Yes, Potabi has thirteen million for the underlying system, but unlike Linux, the thirteen million lines of code includes more than the kernel. It also includes many applications, the actual operating system, userland, init systems, everything. In contrast, the Linux kernel's nineteen million lines belong only to the kernel itself, and that's just one of many issues. Also, if you want to check yourself.")
+                (div class="columns"
+                    (div class="column"
+                        (h2 class="subtitle has-text-white" "Potabi")
+                        (img src="https://img.shields.io/tokei/lines/github.com/potabi/potabi-src?style=for-the-badge"))
+                    (div class="column"
+                        (h2 class="subtitle has-text-white" "Linux")
+                        (img src="https://img.shields.io/tokei/lines/github.com/torvalds/linux?style=for-the-badge")))
+                (p "And remember. Linux has nineteen million lines of code for the kernel alone. Potabi has thirteen million for the operating system base itself. Also, sometimes, Shields.io breaks. If you cannot see the numbers, click " (a href="https://img.shields.io/tokei/lines/github.com/torvalds/linux" target="_blank" "here for Linux") " and " (a href="https://img.shields.io/tokei/lines/github.com/potabi/potabi-src" target="_blank" "here for Potabi")"."))
             (div class="column is-1"))(br)
         (div class="columns"
             (div class="column is-1")
             (div class="column"
                 (h1 class="subtitle has-text-white has-text-centered" "Our Mission...")
-                (p class="has-text-centered" "... is to bring a new generation of systems to inspire the world to truly invest into open-source software. For too long have operating systems like the BSD systems, Illumos and its forks, and generally anything not MacOS, Windows, or Linux have taken every aspect of what defines enterprise-grade software. The open source ecosystem, with all of the Linuxisms and lack of true competition between projects, is uncompetative with proprietary software vendors. We are here to introduce competition, push for innovation, and make open source a competative enterprise force. It is rare to see massive corporations offer open source to everyone, and see them innovate. It is time to change that."))
+                (p class="has-text-centered" "... is to bring an actual alternative operating system that doesn't sacrifice speed, security, or ease of use; an alternative operating system that isn't bloated, elitist, ignorant, or arogant. We don't support the idea of being a " (a href="https://www.urbandictionary.com/define.php?term=gnukkit" target="_blank" "gnukkit") " and to not give users the idea that we are the only hope for people tired of the monopolies and duopolies of the operating system markets. We acknolegde our issues, are honest about our limitations, are fair and kind to those who use operating systems that break our philosphy. We aren't here to hate Linux, the other BSD branded systems, Windows, or macOS. We are here to spark change in the way we see fit. Open-source software exists to be open, be fair, and improve. Having alternatives and competition allows for new ideas to better grow and fester. Even if you are a die-hard Linux/Windows/macOS/other operating system user, please join us."))
             (div class="column is-1")))
     (div class="section has-background-black-ter webring has-text-white"
         (div class="columns"
             (div class="column is-1")
             (div class="column"
+            (h1 class="title has-text-white has-text-center w-full" "Supporting These Web Rings")
                 (div class="columns"
-                    (div class="column is-two-fifths"
-                        (img src="https://raw.githubusercontent.com/potabi/potabi.com/images/freedomwebringmember.png"))
                     (div class="column"
-                        (h1 class="title has-text-white" "Proud supporters of Freedom Web Ring")
-                        (p (a href="https://cygo.network/webring" target="_blank" "Freedom Web Ring") " is a " (a href="https://cygo.network/" target="_blank" "Cygo Network") " project that aims to show websites that support the free flow of information of internet. Flow of information not under the control of a government agency or political organization. Freedom Web Ring is a symbol of privacy, honesty, and allowence of free and open flow of any information over the internet. As a libre commercial open-source software product, we stand proudly with this messaging." (br))
-                        (p "The Potabi Systems project believes in the transperent and open flow of information online. While we do not force our customer-base to support Freedom Web Ring, nor do we force customers to believe the same ideals as us, (we have a term for people who force their ideas of 'freedom' onto others, a gnukkit) we do strongly believe in the open, uncensored flow of information online. And that will never change."))))
+                        (img style="height:10rem;width:auto" src="https://raw.githubusercontent.com/potabi/potabi.com/images/freedomwebringmember.png")
+                        (p (a href="https://cygo.network/webring" target="_blank" "Freedom Web Ring") " is a " (a href="https://cygo.network/" target="_blank" "Cygo Network") " project that aims to show websites that support the free flow of information of internet. Flow of information not under the control of a government agency or political organization. Freedom Web Ring is a symbol of privacy, honesty, and allowence of free and open flow of any information over the internet. As a libre commercial open-source software product, we stand proudly with this messaging."))
+                    (div class="column"
+                        (img style="height:10rem;width:auto" src="https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png")
+                        (p "We run our own web ring known as the " (a href="" target="_blank" "Competition and Cooperation Web Ring") " which is dedicated to support fair competition between projects, and to stop so-called 'project wars.' We want critisism to be fair, honest, and respectful. Competing projects should always be respectful with eachother rather than consistantly fighting one another. Competition and innovation work best when we also work together and be fair."))))
+            (div class="column is-1"))
+            (div class="columns"
+            (div class="column is-1")
+            (div class="column"
+            (h1 class="title has-text-white has-text-center w-full" "Supporting These Oranizations")
+            (p "None of these organizations are affiliated with the Potabi project, nor are we affiliated with these organizations. This is to simply express Potabi's support in these organizations. Not all of these are non-ptofit foundations, some of these are just projects, communities, or even for-profits.")(br)
+                (div class="columns is-centered is-multiline"
+                    // Code to add a new organization: 
+                    // (div class="column"
+                    //     (a href="" target="_blank" (img style="height:2.5rem;width:auto" src="")))
+                    (div class="column is-2 has-text-centered" 
+                        (a href="https://www.eff.org" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.eff.org/files/2018/06/14/eff_monogram-primary-red.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://www.torproject.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://freebsdfoundation.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://freebsdfoundation.org/wp-content/themes/daemon/images/logo.svg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://www.openbsdfoundation.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://mandoc.bsd.lv/favicon.ico")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://hardenedbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://hardenedbsd.org/sites/default/files/2014-08-21_logo_small_03_0_0.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://oss.capital/" target="_blank" (img style="height:2.5rem;width:auto" src="https://oss.capital/static/logo_large-55223cd9315a340e47d01f9b6e549eab.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://tenacityaudio.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://raw.githubusercontent.com/tenacityteam/assets/master/PNG/tenacity-logo-dark-readme.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://fosstorrents.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://fosstorrents.com/img/home-long.webp")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://fosshost.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://fosshost.org/img/FosshostLogo.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://www.pine64.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.pine64.org/wp-content/themes/pine64/images/logo_blue.svg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://glimpse-editor.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://glimpse-editor.org/logo_hex_full_invert.svg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://mate-desktop.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://mate-desktop.org/assets/img/icons/mate.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://draugeros.org/go/" target="_blank" (img style="height:2.5rem;width:auto" src="https://draugeros.org/go/wp-content/uploads/2019/03/cropped-dragericon.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://www.ghostbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.ghostbsd.org/sites/default/files/ghostbsd.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://nomadbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://nomadbsd.org/banner.jpg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="http://www.seeedstudio.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://media-cdn.seeedstudio.com/media/logo/stores/4/logo_2018_horizontal.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://www.sparkfun.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://cdn.sparkfun.com/assets/custom_pages/3/3/4/dark-logo-red-flame.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://system76.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://avatars.githubusercontent.com/u/2448433?s=200&v=4")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://innatical.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://innatical.com/innatical.svg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://klarasystems.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://klarasystems.com/wp-content/uploads/2020/05/klara_white_logo_big.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://www.arm.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.arm.com/-/media/global/logos/arm-logo-white-rgb.svg?revision=d98f22d3-09c8-4813-a9d8-434c89710774&la=en&hash=D4CDA0CEC5DF33934201ABAA45A258021966BE47")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://riscv.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://riscv.org/wp-content/uploads/2020/06/riscv-color.svg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://vlang.io/" target="_blank" (img style="height:2.5rem;width:auto" src="https://vlang.io/img/v-logo.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://www.namecheap.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.namecheap.com/blog/wp-content/themes/blog_1_16_8/assets/images/namecheap.svg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://porkbun.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://porkbun.com/partners/logos/porkbun.comphpPkl2eU.svg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://www.cloudflare.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://risi.io/" target="_blank" (img style="height:2.5rem;width:auto" src="https://risi.io/assets/img/logo.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://rockylinux.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://rockylinux.org/icons/icon-512x512.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://pidgin.im/" target="_blank" (img style="height:2.5rem;width:auto" src="https://pidgin.im/images/logo.png")))
+                ))
             (div class="column is-1")))
     (Footer ""))
