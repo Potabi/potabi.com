@@ -145,6 +145,8 @@
                         (a href="https://rockylinux.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://rockylinux.org/icons/icon-512x512.png")))
                     (div class="column is-2 has-text-centered"
                         (a href="https://pidgin.im/" target="_blank" (img style="height:2.5rem;width:auto" src="https://pidgin.im/images/logo.png")))
+                    (div class="column is-2 has-text-centered"
+                        (a href="https://sheridancomputers.co.uk/" target="_blank" (img style="height:2.5rem;width:auto" src="https://sheridancomputers.co.uk/img/sheridan-logo.svg")))
                 ))
             (div class="column is-1")))
     (Footer ""))
