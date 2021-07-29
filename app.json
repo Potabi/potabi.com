@@ -9,8 +9,7 @@
         "support", 
         "server", 
         "desktop", 
-        "mobile", 
-        "store" 
+        "mobile"
     ],
     "publicDir":"public"
 }

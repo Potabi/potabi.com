@@ -9,7 +9,7 @@
                 (a class="navbar-item has-text-white" href="/developers" "Developers")
                 (a class="navbar-item has-text-white" href="/security" "Security")
                 (a class="navbar-item has-text-white" href="/support" "Support")
-                (a class="navbar-item has-text-white" href="/store" "Store"))
+                (a class="navbar-item has-text-white" href="https://store.potabi.com/" "Store"))
             (div class="navbar-end"
                 (a class="navbar-item has-text-white" href="https://github.com/potabi"
                     (i class="fab fa-github"))
@@ -46,7 +46,7 @@
                         (p "General")
                         (a href="/about" "About Us")(br)
                         (a href="/privacy" "Privacy Policy")(br)
-                        (a href="/store" "Store")(br)
+                        (a href="https://store.potabi.com/" "Store")(br)
                         (a href="/developers" "Developers")(br)
                         (a href="/support" "Support")))
             (div class="column is-1"))))))

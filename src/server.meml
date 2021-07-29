@@ -7,6 +7,23 @@
     (div class="section"
         (div class="columns"
             (div class="column is-1")
-            (div class="column")
+            (div class="column"
+                (h1 class="title" "Potabi Server")
+                // Maintnance information.
+                // Make sure to change the version of FreeBSD. Looks like "FreeBSD XY.Z"
+                (p "Potabi Server is not yet within the development cycle. "))
             (div class="column is-1")))
+    (div class="section columns"
+        (div class="column product-info is-4 has-background-success-dark py-4"
+            (div class="columns"
+                (div class="column is-1")
+                (div class="column has-text-centered has-text-white"
+                    (h1 class="title is-3 has-text-white" "Release Beta 1A Luna")
+                    (a href="#" class="button is-outlined is-white" "Download")(br)(br)
+                    (p "Changelog:"(br)
+                        "- N/A"(br)
+                    )))
+                (div class="column is-1"))
+        (div class="column product-image has-background-danger-dark py-4"
+            (img class="rounded" src="https://raw.githubusercontent.com/Potabi/potabi.com/images/potabi-bg.png")))
     (Footer ""))
