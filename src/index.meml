@@ -65,130 +65,153 @@
                 (h1 class="subtitle has-text-white has-text-centered" "Our Mission...")
                 (p class="has-text-centered" "... is to bring an actual alternative operating system that doesn't sacrifice speed, security, or ease of use; an alternative operating system that isn't bloated, elitist, ignorant, or arogant. We don't support the idea of being a " (a href="https://www.urbandictionary.com/define.php?term=gnukkit" target="_blank" "gnukkit") " and to not give users the idea that we are the only hope for people tired of the monopolies and duopolies of the operating system markets. We acknolegde our issues, are honest about our limitations, are fair and kind to those who use operating systems that break our philosphy. We aren't here to hate Linux, the other BSD branded systems, Windows, or macOS. We are here to spark change in the way we see fit. Open-source software exists to be open, be fair, and improve. Having alternatives and competition allows for new ideas to better grow and fester. Even if you are a die-hard Linux/Windows/macOS/other operating system user, please join us."))
             (div class="column is-1")))
-    (div class="section has-background-black-ter webring has-text-white"
-        (div class="columns"
-            (div class="column is-1")
-            (div class="column"
-            (h1 class="title has-text-white has-text-center w-full" "Supporting These Web Rings")
-                (div class="columns"
-                    (div class="column"
-                        (img style="height:10rem;width:auto" src="https://raw.githubusercontent.com/potabi/potabi.com/images/freedomwebringmember.png")
-                        (p (a href="https://cygo.network/webring" target="_blank" "Freedom Web Ring") " is a " (a href="https://cygo.network/" target="_blank" "Cygo Network") " project that aims to show websites that support the free flow of information of internet. Flow of information not under the control of a government agency or political organization. Freedom Web Ring is a symbol of privacy, honesty, and allowence of free and open flow of any information over the internet. As a libre commercial open-source software product, we stand proudly with this messaging."))
-                    (div class="column"
-                        (img style="height:10rem;width:auto" src="https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png")
-                        (p "We run our own web ring known as the " (a href="" target="_blank" "Competition and Cooperation Web Ring") " which is dedicated to support fair competition between projects, and to stop so-called 'project wars.' We want critisism to be fair, honest, and respectful. Competing projects should always be respectful with eachother rather than consistantly fighting one another. Competition and innovation work best when we also work together and be fair."))))
-            (div class="column is-1"))
+        (div class="section has-background-black-ter webring has-text-white"
             (div class="columns"
-            (div class="column is-1")
-            (div class="column"
-            (h1 class="title has-text-white has-text-center w-full" "Supporting These Oranizations")
-            (p "None of these organizations are affiliated with the Potabi project, nor are we affiliated with these organizations. This is to simply express Potabi's support in these organizations. Not all of these are non-profit foundations, some of these are just projects, communities, or even for-profits.")(br)
-                (div class="columns is-centered is-multiline"
-                    // Code to add a new organization: 
-                    // (div class="column"
-                    //     (a href="" target="_blank" (img style="height:2.5rem;width:auto" src="")))
-                    (div class="column is-2 has-text-centered" 
-                        (a href="https://www.eff.org" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.eff.org/files/2018/06/14/eff_monogram-primary-red.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.torproject.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://freebsdfoundation.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://freebsdfoundation.org/wp-content/themes/daemon/images/logo.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.openbsdfoundation.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://mandoc.bsd.lv/favicon.ico")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://hardenedbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://hardenedbsd.org/sites/default/files/2014-08-21_logo_small_03_0_0.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://oss.capital/" target="_blank" (img style="height:2.5rem;width:auto" src="https://oss.capital/static/logo_large-55223cd9315a340e47d01f9b6e549eab.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://tenacityaudio.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://raw.githubusercontent.com/tenacityteam/assets/master/PNG/tenacity-logo-dark-readme.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://fosstorrents.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://fosstorrents.com/img/home-long.webp")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://fosshost.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://fosshost.org/img/FosshostLogo.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.pine64.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.pine64.org/wp-content/themes/pine64/images/logo_blue.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://glimpse-editor.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://glimpse-editor.org/logo_hex_full_invert.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://mate-desktop.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://mate-desktop.org/assets/img/icons/mate.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://draugeros.org/go/" target="_blank" (img style="height:2.5rem;width:auto" src="https://draugeros.org/go/wp-content/uploads/2019/03/cropped-dragericon.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.ghostbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.ghostbsd.org/sites/default/files/ghostbsd.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://nomadbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://nomadbsd.org/banner.jpg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="http://www.seeedstudio.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://media-cdn.seeedstudio.com/media/logo/stores/4/logo_2018_horizontal.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.sparkfun.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://cdn.sparkfun.com/assets/custom_pages/3/3/4/dark-logo-red-flame.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://system76.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://avatars.githubusercontent.com/u/2448433?s=200&v=4")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://innatical.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://innatical.com/innatical.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://klarasystems.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://klarasystems.com/wp-content/uploads/2020/05/klara_white_logo_big.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.arm.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.arm.com/-/media/global/logos/arm-logo-white-rgb.svg?revision=d98f22d3-09c8-4813-a9d8-434c89710774&la=en&hash=D4CDA0CEC5DF33934201ABAA45A258021966BE47")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://riscv.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://riscv.org/wp-content/uploads/2020/06/riscv-color.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://vlang.io/" target="_blank" (img style="height:2.5rem;width:auto" src="https://vlang.io/img/v-logo.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.namecheap.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.namecheap.com/blog/wp-content/themes/blog_1_16_8/assets/images/namecheap.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://porkbun.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://porkbun.com/partners/logos/porkbun.comphpPkl2eU.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.cloudflare.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://risi.io/" target="_blank" (img style="height:2.5rem;width:auto" src="https://risi.io/assets/img/logo.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://rockylinux.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://rockylinux.org/icons/icon-512x512.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://pidgin.im/" target="_blank" (img style="height:2.5rem;width:auto" src="https://pidgin.im/images/logo.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://sheridancomputers.co.uk/" target="_blank" (img style="height:2.5rem;width:auto" src="https://sheridancomputers.co.uk/img/sheridan-logo.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://libera.chat/" target="_blank" (img style="height:2.5rem;width:auto" src="https://libera.chat/static/img/libera-color.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://liberapay.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://liberapay.com/assets/liberapay/icon-v2_white-on-yellow.svg?etag=.Z1LYSBJ8Z6GWUeLUUEf2XA~~")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://freedom.press/" target="_blank" (img style="height:2.5rem;width:auto" src="https://pbs.twimg.com/profile_images/806940062625579009/x8LCVdLn_400x400.jpg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.gimp.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.gimp.org/images/frontpage/wilber-big.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.dothq.co/en" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.dothq.co/favicon.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.ixsystems.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.ixsystems.com/wp-content/uploads/2021/06/ix_logo_200x47.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://ubuntu-mate.org" target="_blank" (img style="height:2.5rem;width:auto" src="https://ubuntu-mate.org/images/get-involved/logo-guidelines/Main_Logo.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://roguerocket.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://roguerocket.com/wp-content/uploads/2019/03/RR-Text2.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://wikileaks.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://wikileaks.org/IMG/rubon33.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.zoho.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.zoho.com/favicon.ico")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.serenityos.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.serenityos.org/banner.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.openindiana.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.openindiana.org/wp-content/uploads/2016/05/oi_logo.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://elementary.io" target="_blank" (img style="height:2.5rem;width:auto" src="https://raw.githubusercontent.com/elementary/brand/master/logomark-alt.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.qubes-os.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.qubes-os.org/attachment/icons/128x128/apps/qubes-logo-icon.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.weebly.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://cdn1.editmysite.com/images/weebly-logo-blue.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://bastillebsd.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://bastillebsd.com/img/bastille-icon.png")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://gitea.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://s.gitea.com/assets/img/logo.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://alternativeto.net/" target="_blank" (img style="height:2.5rem;width:auto" src="https://alternativeto.net/static/logo.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.illumos.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.illumos.org/n/images/logo2.svg")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.gp.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://d3n8a8pro7vhmx.cloudfront.net/gpus/sites/3/meta_images/original/logo.png?1431058230")))
-                    (div class="column is-2 has-text-centered"
-                        (a href="https://www.cosdsa.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://images.squarespace-cdn.com/content/v1/60179acc5d14073e224b1afd/1612167775879-U7ZVRP4ECBL1L3UUFZH2/CS+DSA+Logo.png?format=1500w")))
+                (div class="column is-1")
+                (div class="column"
+                (h1 class="title has-text-white has-text-center w-full" "Supporting These Web Rings")
+                    (div class="columns"
+                        (div class="column"
+                            (img style="height:10rem;width:auto" src="https://raw.githubusercontent.com/potabi/potabi.com/images/freedomwebringmember.png")
+                            (p (a href="https://cygo.network/webring" target="_blank" "Freedom Web Ring") " is a " (a href="https://cygo.network/" target="_blank" "Cygo Network") " project that aims to show websites that support the free flow of information of internet. Flow of information not under the control of a government agency or political organization. Freedom Web Ring is a symbol of privacy, honesty, and allowence of free and open flow of any information over the internet. As a libre commercial open-source software product, we stand proudly with this messaging."))
+                        (div class="column"
+                            (img style="height:10rem;width:auto" src="https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png")
+                            (p "We run our own web ring known as the " (a href="" target="_blank" "Competition and Cooperation Web Ring") " which is dedicated to support fair competition between projects, and to stop so-called 'project wars.' We want critisism to be fair, honest, and respectful. Competing projects should always be respectful with eachother rather than consistantly fighting one another. Competition and innovation work best when we also work together and be fair."))))
+                (div class="column is-1"))
+                (div class="columns"
+                    (div class="column is-1")
+                    (div class="column"
+                        (h1 class="title has-text-white has-text-center w-full" "Sponsors")
+                        (p "These people and organizations actively donate to the project. There are currently none at this time. You can be the first, just contact kai@potabi.com and I will get to you."))
+                    (div class="column is-1"))
+                (div class="columns"
+                    (div class="column is-1")
+                    (div class="column"
+                        (h1 class="title has-text-white has-text-center w-full" "Supporters")
+                        (p "These people and organizations have given support to the project directly to help us actually make the project happen. These supporters may have provided help, services, guidence, without expecting anything in return.")(br)
+                        (div class="columns is-centered is-multiline"
+                            (div class="column is-2 has-text-centered"
+                                (a href="https://fosstorrents.com" target="_blank"
+                                    (img style="height:2.5rem;width:auto" src="https://fosstorrents.com/img/home-long.webp")))
+                            (div class="column is-2 has-text-centered"
+                                (a href="https://hardenedbsd.org" target="_blank"
+                                    (img style="height:2.5rem;width:auto" src="https://hardenedbsd.org/sites/default/files/2014-08-21_logo_small_03_0_0.png")))
+                            (div class="column is-2 has-text-centered"
+                                (a href="https://www.ghostbsd.org" target="_blank"
+                                    (img style="height:2.5rem;width:auto" src="https://www.ghostbsd.org/sites/default/files/ghostbsd.png")))
+                        ))
+                    (div class="column is-1"))
+                (div class="columns"
+                    (div class="column is-1")
+                    (div class="column"
+                    (h1 class="title has-text-white has-text-center w-full" "Supporting These Oranizations")
+                    (p "None of these organizations are affiliated with the Potabi project, nor are we affiliated with these organizations. This is to simply express Potabi's support in these organizations. Not all of these are non-profit foundations, some of these are just projects, communities, or even for-profits. We should also mention that none of these organizations, unless specified above in the sponsors or supporters sections, are sponsors or supporters of the project, unlike the organizations above.")(br)
+                    (div class="columns is-centered is-multiline"
+                        // Code to add a new organization: 
+                        // (div class="column"
+                        //     (a href="" target="_blank" (img style="height:2.5rem;width:auto" src="")))
+                        (div class="column is-2 has-text-centered" 
+                            (a href="https://www.eff.org" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.eff.org/files/2018/06/14/eff_monogram-primary-red.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.torproject.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://freebsdfoundation.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://freebsdfoundation.org/wp-content/themes/daemon/images/logo.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.openbsdfoundation.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://mandoc.bsd.lv/favicon.ico")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://hardenedbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://hardenedbsd.org/sites/default/files/2014-08-21_logo_small_03_0_0.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://oss.capital/" target="_blank" (img style="height:2.5rem;width:auto" src="https://oss.capital/static/logo_large-55223cd9315a340e47d01f9b6e549eab.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://tenacityaudio.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://raw.githubusercontent.com/tenacityteam/assets/master/PNG/tenacity-logo-dark-readme.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://fosstorrents.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://fosstorrents.com/img/home-long.webp")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://fosshost.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://fosshost.org/img/FosshostLogo.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.pine64.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.pine64.org/wp-content/themes/pine64/images/logo_blue.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://glimpse-editor.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://glimpse-editor.org/logo_hex_full_invert.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://mate-desktop.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://mate-desktop.org/assets/img/icons/mate.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://draugeros.org/go/" target="_blank" (img style="height:2.5rem;width:auto" src="https://draugeros.org/go/wp-content/uploads/2019/03/cropped-dragericon.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.ghostbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.ghostbsd.org/sites/default/files/ghostbsd.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://nomadbsd.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://nomadbsd.org/banner.jpg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="http://www.seeedstudio.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://media-cdn.seeedstudio.com/media/logo/stores/4/logo_2018_horizontal.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.sparkfun.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://cdn.sparkfun.com/assets/custom_pages/3/3/4/dark-logo-red-flame.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://system76.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://avatars.githubusercontent.com/u/2448433?s=200&v=4")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://innatical.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://innatical.com/innatical.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://klarasystems.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://klarasystems.com/wp-content/uploads/2020/05/klara_white_logo_big.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.arm.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.arm.com/-/media/global/logos/arm-logo-white-rgb.svg?revision=d98f22d3-09c8-4813-a9d8-434c89710774&la=en&hash=D4CDA0CEC5DF33934201ABAA45A258021966BE47")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://riscv.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://riscv.org/wp-content/uploads/2020/06/riscv-color.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://vlang.io/" target="_blank" (img style="height:2.5rem;width:auto" src="https://vlang.io/img/v-logo.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.namecheap.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.namecheap.com/blog/wp-content/themes/blog_1_16_8/assets/images/namecheap.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://porkbun.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://porkbun.com/partners/logos/porkbun.comphpPkl2eU.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.cloudflare.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://risi.io/" target="_blank" (img style="height:2.5rem;width:auto" src="https://risi.io/assets/img/logo.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://rockylinux.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://rockylinux.org/icons/icon-512x512.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://pidgin.im/" target="_blank" (img style="height:2.5rem;width:auto" src="https://pidgin.im/images/logo.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://sheridancomputers.co.uk/" target="_blank" (img style="height:2.5rem;width:auto" src="https://sheridancomputers.co.uk/img/sheridan-logo.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://libera.chat/" target="_blank" (img style="height:2.5rem;width:auto" src="https://libera.chat/static/img/libera-color.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://liberapay.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://liberapay.com/assets/liberapay/icon-v2_white-on-yellow.svg?etag=.Z1LYSBJ8Z6GWUeLUUEf2XA~~")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://freedom.press/" target="_blank" (img style="height:2.5rem;width:auto" src="https://pbs.twimg.com/profile_images/806940062625579009/x8LCVdLn_400x400.jpg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.gimp.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.gimp.org/images/frontpage/wilber-big.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.dothq.co/en" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.dothq.co/favicon.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.ixsystems.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.ixsystems.com/wp-content/uploads/2021/06/ix_logo_200x47.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://ubuntu-mate.org" target="_blank" (img style="height:2.5rem;width:auto" src="https://ubuntu-mate.org/images/get-involved/logo-guidelines/Main_Logo.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://roguerocket.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://roguerocket.com/wp-content/uploads/2019/03/RR-Text2.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://wikileaks.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://wikileaks.org/IMG/rubon33.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.zoho.com" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.zoho.com/favicon.ico")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.serenityos.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.serenityos.org/banner.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.openindiana.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.openindiana.org/wp-content/uploads/2016/05/oi_logo.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://elementary.io" target="_blank" (img style="height:2.5rem;width:auto" src="https://raw.githubusercontent.com/elementary/brand/master/logomark-alt.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.qubes-os.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.qubes-os.org/attachment/icons/128x128/apps/qubes-logo-icon.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.weebly.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://cdn1.editmysite.com/images/weebly-logo-blue.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://bastillebsd.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://bastillebsd.com/img/bastille-icon.png")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://gitea.com/" target="_blank" (img style="height:2.5rem;width:auto" src="https://s.gitea.com/assets/img/logo.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://alternativeto.net/" target="_blank" (img style="height:2.5rem;width:auto" src="https://alternativeto.net/static/logo.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.illumos.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://www.illumos.org/n/images/logo2.svg")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.gp.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://d3n8a8pro7vhmx.cloudfront.net/gpus/sites/3/meta_images/original/logo.png?1431058230")))
+                        (div class="column is-2 has-text-centered"
+                            (a href="https://www.cosdsa.org/" target="_blank" (img style="height:2.5rem;width:auto" src="https://images.squarespace-cdn.com/content/v1/60179acc5d14073e224b1afd/1612167775879-U7ZVRP4ECBL1L3UUFZH2/CS+DSA+Logo.png?format=1500w")))
                 ))
             (div class="column is-1")))
     (Footer ""))
