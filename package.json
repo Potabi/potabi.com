@@ -1,1 +1,0 @@
-{"_note":"This file was generated automatically by mdt. If you want to configure mdt edit app.json","name":"meml-site","private":true,"scripts":{"dev":"mdt dev","build":"mdt build"},"devDependencies":{"mdt":"^1.0.0-a.1"}}
