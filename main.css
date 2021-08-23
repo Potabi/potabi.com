@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Azonix';
+    src: url('https://raw.githubusercontent.com/Potabi/potabi.com/images/Azonix.otf');
+}
+
+*.brand-text{
+    font-family: 'Azonix';
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+section.banner{
+    background-image: url("https://raw.githubusercontent.com/Potabi/potabi.com/images/bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*.title{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+*.subtitle{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+*.title-2{
+    font-size: 1.75rem;
+}
+
+*.h-half{
+    height: 50vh;
+}

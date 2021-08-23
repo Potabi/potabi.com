@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+        <link rel="stylesheet" href="../../main.css">
+        <title>Potabi</title>
+        <link rel="icon" href="https://raw.githubusercontent.com/Potabi/potabi.com/images/ico.png">
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <script src="https://kit.fontawesome.com/eb07830743.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="bg-gray-800">
+            <div class="w-screen flex mx-auto px-5 justify-between sm:px-6 lg:px-8 flex items-center">
+                <div class="flex justify-start">
+                    <div class="relative flex items-center justify-start h-16">
+                        <a href="https://potabi.com" class="text-white inline-flex items-center">
+                            <img class="w-10 h-10" src="https://raw.githubusercontent.com/Potabi/potabi.com/images/ico.png"> 
+                            <span class="brand-text pl-5 text-lg mt-1">Potabi Systems</span>
+                        </a>
+                    </div>
+                    <div class="relative flex items-center justify-start h-16 pl-10 hidden md:flex">
+                        <a class="px-5 text-white font-bold" href="/lang/fr/telechargements">Téléchargements</a>
+                        <a class="px-5 text-white font-bold" href="/lang/fr/securite.html">Sécurité</a>
+                        <a class="px-5 text-white font-bold" href="/lang/fr/developpeuses.html">Développeuses</a>
+                        <a class="px-5 text-white font-bold" href="https://potabi.com/support">Patreon</a>
+                        <a class="px-5 text-white font-bold" href="https://store.potabi.com/">Marchandise</a>
+                    </div>
+                </div>
+                <div class="relative flex justify-end hidden md:flex">
+                    <div class="flex justify-end items-center mx-5">
+                        <a class="text-white mx-2" target="_blank" href="https://github.com/Potabi">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a class="text-white mx-2" href="https://discord.com/invite/8s8nNwndtF">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a class="text-white mx-2" href="https://twitter.com/PotabiSystems">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--
+                    This section of code is actually a modified version of a dropdown from the TailwindComponents user Khatabwedaa
+                    https://tailwindcomponents.com/u/khatabwedaa
+                -->
+                <div class="relative flex justify-center items-center">
+                    <div x-data="{ dropdownOpen: false }" class="relative">
+                        <button @click="dropdownOpen = !dropdownOpen" class="relative z-10 block rounded-md text-white p-2 focus:outline-none">
+                            <i class="fas fa-language"></i>
+                        </button>
+                        <div x-show="dropdownOpen" @click="dropdownOpen = false" class="fixed inset-0 h-full w-full z-10"></div>
+                        <div x-show="dropdownOpen" class="absolute right-0 mt-2 py-2 w-48 bg-white rounded-md shadow-xl z-20">
+                            <a href="https://potabi.com/lang/en/developers" class="block px-4 py-2 text-sm capitalize text-gray-700 hover:bg-blue-500 hover:text-white">
+                                English
+                            </a>
+                            <a href="https://potabi.com/lang/fr/developpeuses" class="block px-4 py-2 text-sm capitalize text-gray-700 hover:bg-blue-500 hover:text-white">
+                                Français
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner -->
+        <section class="relative banner h-half w-screen">
+            <div class="relative flex items-center justify-between h-full">
+                <div class="mb-40 ml-20 mt-20">
+                    <h1 class="text-white title">Développeuses</h1>
+                    <h2 class="text-white subtitle">Aide au développement de vos applications pour ou avec Potabi.</h2>
+                </div>
+            </div>
+        </section>
+        <!-- Security -->
+        <section class="relative w-screen">
+            <div class="relative mt-20 mb-14">
+                <h1 class="title text-center">Bientôt Disponible</h1>
+                <h2 class="subtitle text-center">Cette page du site n'est pas complète.</h2>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-gray-700 text-gray-200 py-10 px-20">
+            <div class="relative">
+                <p>&copy; <span class="brand-text">The Potabi Foundation</span>, tous les droits sont réservés.</p>
+                <p>Lomiri est un projet de la <a href="https://ubports.com/" target="_blank">UBPorts Foundation</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
