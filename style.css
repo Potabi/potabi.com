@@ -1,0 +1,9 @@
+section.fullbanner{
+    background-image: url('./images/index.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*.fix-mt{
+    margin-top: -7.5rem;
+}
