@@ -4,235 +4,34 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Potabi Foundation</title><script src="https://cdn.tailwindcss.com"></script>
         <link rel="icon" href="favicon.ico">
-        <script src="https://kit.fontawesome.com/eb07830743.js" crossorigin="anonymous"></script>
     </head>
     <body class="overflow-x-hidden">
-        <!-- Navigation -->
-        <div class="px-5 w-screen py-2 flex flex-grid items-center static bg-gray-900">
-            <img src="favicon.ico" class="w-9" alt="logo">
-            <p class="text-lg ml-2 text-white">The Potabi Foundation</p>
-            <ul class="hidden md:flex md:flex-grid items-center ml-9 text-gray-500 font-light">
-                <li>
-                    <a class="mx-2 hover:font-bold hover:text-gray-200" href="#about">About Us</a>
-                </li>
-                <li>
-                    <a class="mx-2 hover:font-bold hover:text-gray-200" href="#donate">Donate</a>
-                </li>
-                <li>
-                    <a class="mx-2 hover:font-bold hover:text-gray-200" href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a class="mx-2 hover:font-bold hover:text-gray-200" href="#licenses">Licenses</a>
-                </li>
-            </ul>
-            <div class=" inline-block text-left float-right w-full hidden">
-                <div class="">
-                    <style>
-                        .show {
-                            display: block;
-                        }
-
-                    </style>
-                    
-                    <div class="dropdown md:hidden float-right">
-                        <button onclick="myFunction()" class="dropbtn text-white flex items-center">menu</button>
-                        <div id="myDropdown" class="dropdown-content hidden absolute bg-white px-3 py-2 rounded">
-                          <a href="#about">About</a>
-                          <a href="#donate">Donate</a>
-                          <a href="#projects">Projects</a>
-                          <a href="#licenses">Licenses</a>
-                        </div>
-                      </div>
-                      
-                      <script>
-                      /* When the user clicks on the button, 
-                      toggle between hiding and showing the dropdown content */
-                      function myFunction() {
-                        document.getElementById("myDropdown").classList.toggle("show");
-                      }
-                      
-                      // Close the dropdown if the user clicks outside of it
-                      window.onclick = function(event) {
-                        if (!event.target.matches('.dropbtn')) {
-                          var dropdowns = document.getElementsByClassName("dropdown-content");
-                          var i;
-                          for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains('show')) {
-                              openDropdown.classList.remove('show');
-                            }
-                          }
-                        }
-                      }
-                      </script>
-                  </div>
-            </div>
-        </div>
-
-        <!-- Banner -->
-        <style>
-            .banner-img{
-                background-image: url("potabi-no-text.png");
-                background-size: cover;
-                background-position: center;
-                background-attachment: fixed;
-            }
-        </style>
-        <div class="banner-img font-extrabold w-screen h-screen flex items-center">
-            <div class="ml-5 mr-5 bg-white px-5 py-2 rounded-lg w-full md:w-auto">
-                <h1 class="text-4xl text-center md:text-left text-black uppercase">The Potabi Foundation</h1>
-                <p class="text-center">TECHNOLOGY FOR GOOD</p>
-            </div>
-        </div>
-
-        <!-- About Us -->
-        <div id="about" class="w-screen py-10 px-5 md:px-48">
-            <h2 class="text-2xl text-center my-5 underline underline-offset-8">&ensp;About The Potabi Foundation&ensp;</h2>
-            <p class="text-center w-full mb-5">
-                The Potabi Foundation is a not-for-profit organization that works on improvements in software, media, and education using technology. Our work is dedicated to the licensing and technoological and personal support. Meaning our work provides to the people.
+        <p>Dear you,</p>
+        <div style="display: flex; gap: 2rem;">
+            <p style="text-align: justify; display: block; width: 33%;">
+                The Potabi projects are on a temporary hiatus until further notice.
+                I have been dealing with a lot of crap in my personal life, and I
+                simply just don't have the will to work on this project at the
+                moment. I do plan to return to the project sometime soon-ish, however,
+                with everything going on like courts, and worrying about everything, 
+                it's been too much. If you want to support me, I have written a book
+                called "Technology Sucks", and am working on another book in my free
+                time to help pass time.
                 <br><br>
-                Currently The Potabi Foundation does the vast majority of its work in it's software projects, as our size is still rather small. As we grow, both in donations and with volunteers and contributors, our goals are to start next on software licensing - as few licenses both protect the developer and the user, and those that do have other major flaws.
+                For those who don't know what I have been going through, I have caught
+                a felony case. Since I am still dealing with the courts, I do not wish
+                to go into much detail on the subject at this time.
                 <br><br>
-                When the foundation is ready to support media - later education - then the foundation will work on better tools to distribute, use, and fund Creative Commons works. We want to work with other foundations to make a website where people upload and share Creative Commons licensed games, music, videos less than 120-minutes in length, and more.
+                Thank you for supporting the project. The foundation is being disolved
+                and the long-term of the project is that it will be a personal hobby
+                project of mine. I have not quit the project and I do intend on returning
+                here after my next court date. I am sorry if this news dissapoints anyone
+                who believed in me.
                 <br><br>
-                And later, The Potabi Foundation will take a work-experience education system. We want to build education systems that allow people to learn about technology and get real work experience that will show that the person not only has several certificates but work experience using these technologies whether in more commercial-esque or experimental systems.
+                <span class="margin-right: 2rem">- Kai Lyons</span>
             </p>
-        </div>
-
-
-        <!-- Donations -->
-        <div id="donate" class="w-screen  py-10 px-5 md:px-48 text-white bg-gray-900">
-            <h2 class="text-2xl text-center my-5 underline underline-offset-8">&ensp;Donate to The Potabi Foundation&ensp;</h2>
-            <p class="text-center w-full pyb-5">
-                Right now, donations are <em><strong>NOT</strong></em> tax-deductible. However, the donations help us build a better future for everyone and everything.
-            </p>
-            <section class="pg-lib-item py-20 text-center"> 
-                <div data-pg-class-style="container" class="container mx-auto px-4 relative" data-pg-class-style-inline="">
-                    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
-                        <div class="mx-5">
-                            <script src="https://liberapay.com/ThePotabiFoundation/widgets/receiving.js"></script>
-                        </div>
-                        <div class="mx-5">
-                            <h3 class="font-bold text-2xl">PayPal</h3>
-                            <form action="https://www.paypal.com/donate" method="post" target="_top">
-                                <input type="hidden" name="hosted_button_id" value="EKRUDGNWSVQDC" />
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                            </form>
-                        </div>
-                        <div class="mx-5">
-                            <img class="w-64" src="/qr.png" alt="Venmo QR Code">
-                        </div>
-                    </div>
-                </div>                             
-            </section>
-        </div>
-
-        <!-- Projects -->
-        <div id="projects" class="w-screen py-10 px-5 md:px-48">
-            <h2 class="text-2xl text-center my-5 underline underline-offset-8">&ensp;Projects by The Potabi Foundation&ensp;</h2>
-            <p class="text-center w-full mb-5">
-                The Potabi Foundation runs the following projects that you can download.
-            </p>
-            <div class="w-sfull bg-pink-700 text-white rounded-xl">
-                <div class="flex w-full pt-5 items-center justify-center">
-                    <img class="w-10 justify-center" src="/logos/potabi.png">
-                </div>
-                <h3 class="text-xl font-bold text-center my-3">Potabi Systems</h3>
-                <p class="text-center mb-5">Our flagship desktop, server, and mobile operating system.</p>
-                <section class="bg-white pg-lib-item text-gray-500" id="download"> 
-                    <div data-pg-class-style="container" class="container mx-auto px-4 relative  text-center" data-pg-class-style-inline=" text-center">
-                        <div class="flex flex-wrap  items-center justify-center mx-0" data-pg-class-style="column_parent" data-pg-class-style-inline=" items-center justify-center mx-0"> 
-                            <div class="py-4 w-full lg:w-4/12"> 
-                                <div class="bg-gray-100 rounded-lg shadow-xl">                     
-                                    <div class="px-4 py-10">
-                                        <span class="font-bold inline-block leading-none text-4xl text-gray-800">Server</span>
-                                    </div>                       
-                                    <h4 class="bg-gray-800 font-bold py-4 text-xl text-white uppercase">N/a</h4> 
-                                    <div class="pb-12 pt-10 px-4">                                                
-                                        <a class="opacity-50 bg-gray-800 hover:bg-gray-700 inline-block px-6 py-2 text-lg text-white">Download</a> 
-                                        <a class="opacity-50 bg-gray-800 hover:bg-gray-700 inline-block px-6 py-2 text-lg text-white">Release Notes</a> 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="py-4 w-full lg:w-4/12"> 
-                                <div class="bg-gray-100 relative rounded-lg shadow-xl lg:py-10"> 
-                                    <div class="px-4 py-10">
-                                        <span class="font-bold inline-block leading-none text-4xl text-gray-800">Desktop</span>
-                                    </div>                                             
-                                    <h4 class="bg-blue-600 font-bold py-4 text-xl text-white uppercase">Beta-4 1.0A - Luna</h4> 
-                                    <div class="pb-12 pt-10 px-4">                                              
-                                        <a href="https://github.com/Potabi/release/releases/download/b4_1.0a-release/potabi-lumina-b4_1.0a_Luna.iso" class="bg-gray-800 hover:bg-gray-700 inline-block px-6 py-2 text-lg text-white">Download</a> 
-                                        <a href="https://wiki.potabi.com/wiki/Potabi_Systems_B4-1.0A_Release" target="_blank" class="bg-gray-800 hover:bg-gray-700 inline-block px-6 py-2 text-lg text-white">Release Notes</a> 
-                                    </div>                                             
-                                </div>                                         
-                            </div>                                     
-                            <div class="py-4 w-full lg:w-4/12"> 
-                                <div class="bg-gray-100 rounded-lg shadow-xl">       
-                                    <div class="px-4 py-10">
-                                        <span class="font-bold inline-block leading-none text-4xl text-gray-800">Mobile</span>
-                                    </div>                                     
-                                    <h4 class="bg-gray-800 font-bold py-4 text-xl text-white uppercase">N/a</h4> 
-                                    <div class="pb-12 pt-10 px-4">                                                
-                                        <button class="opacity-50 bg-gray-800 hover:bg-gray-700 inline-block px-6 py-2 text-lg text-white">Download</button> 
-                                        <a class="opacity-50 bg-gray-800 hover:bg-gray-700 inline-block px-6 py-2 text-lg text-white">Release Notes</a> 
-                                    </div>
-                                </div>
-                            </div>                                   
-                        </div>                                 
-                    </div>                             
-                </section>
-            </div>
-
-            <h3 class="text-xl font-bold text-center my-3">Other Projects</h3>
-            <p class="text-center mb-5">Click or tap any of the links below to see more</p>
-
-            <div class="columns-1 sm:columns-2 md:colums-4 items-center gap-4">
-                <a href="https://corengs.one" target="_blank">
-                    <div class="flex w-full pt-5 items-center justify-center">
-                        <img class="w-10 justify-center" src="/logos/corengs.png">
-                    </div>
-                    <h3 class="text-xl font-bold text-center my-3">CoreNGS</h3>
-                    <p class="text-center mb-5">corengs.one</p>
-                </a>
-                <a href="https://ayras.potabi.com" target="_blank">
-                    <div class="flex w-full pt-5 items-center justify-center">
-                        <img class="w-10 justify-center" src="/logos/ayras.png">
-                    </div>
-                    <h3 class="text-xl font-bold text-center my-3">Ayras Desktop</h3>
-                    <p class="text-center mb-5">ayras.potabi.com</p>
-                </a>
-                <a href="https://github.com/PotabiFoundation/velstart" target="_blank">
-                    <div class="flex w-full pt-5 items-center justify-center">
-                        <img class="w-10 justify-center" src="/logos/velstart.png">
-                    </div>
-                    <h3 class="text-xl font-bold text-center my-3">velstart</h3>
-                    <p class="text-center mb-5">PotabiFoundation/velstart</p>
-                </a>
-                <a href="https://" target="_blank">
-                    <div class="flex w-full pt-5 items-center justify-center">
-                        <img class="w-10 justify-center" src="/logos/psc.png">
-                    </div>
-                    <h3 class="text-xl font-bold text-center my-3">Potabi Source Control</h3>
-                    <p class="text-center mb-5">psc.potabi.com</p>
-                </a>
-            </div>
-        </div>
-
-        <!-- Licenses -->
-        <div id="licenses" class="w-screen  py-10 px-5 md:px-48 text-white bg-gray-700">
-            <h2 class="text-2xl text-center my-5 underline underline-offset-8">&ensp;Licenses by The Potabi Foundation&ensp;</h2>
-            <p class="text-center w-full pyb-5">
-                Currently The Potabi Foundation does not have any foundation-made licenses, but our software does use common permissive licenses for our current software. In the future we will make licenses. The ones we currently use: BSD (2-4 Clause), MIT, Apache 2.0, Unlicense, Creative Commons BY-SA 4.0 International.
-            </p>
-        </div>
-
-
-        <!-- Footer -->
-        <div class="bg-black text-white py-5 px-5">
-            Copyright &copy; 2022, The Potabi Foundation. Unless otherwise stated the content on this website is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+            <code>If you are still interested in downloading the project, <a href="https://github.com/Potabi/release/releases/download/b4_1.0a-release/potabi-lumina-b4_1.0a_Luna.iso">click here</a></code>
         </div>
     </body>
 </html>
