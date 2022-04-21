@@ -5,67 +5,60 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Potabi Systems</title>
+        <script src="https://cdn.tailwindcss.com"></script><script src="https://cdn.tailwindcss.com"></script>
         <link rel="icon" href="favicon.ico">
-        <link rel="stylesheet" href="tailwind.css">
-        <link rel="stylesheet" href="main.css">
     </head>
     <body class="overflow-x-hidden">
-        <header class="w-screen h-screen bg-wallpaper flex items-center justify-center">
-            <div class="card sm:flex justify-center items-center">
-                <div class="flex justify-center items-center">
-                    <img class="w-24" src="assets/logo.png" alt="Potabi Systems Logo">
-                </div>
-                <div class="text-center">
-                    <h1 class="text-2xl font-bold">Potabi Systems</h1>
-                    <h1 class="text-lg font-thin italic">Potential and Ability</h1>
-                    <div class="py-5">
-                        <a class="button py-2 px-10 sm:px-5 mx-2 bg-pink-900 hover:bg-pink-700 text-white" href="#about">About</a>
-                        <br class="sm:hidden"><br class="sm:hidden">
-                        <a class="button py-2 px-10 sm:px-5 mx-2 bg-pink-200 hover:bg-pink-100" href="#get">Download</a>
+        <!-- Banner -->
+        <header class="relative">
+            <img src="assets/background.png" alt="" class="-z-10 w-screen h-screen absolute">
+                <div class="flex justify-center sm:justify-start flex-col sm:flex-row items-center mx-5 sm:mx-24 z-10 h-screen">
+                    <img src="assets/logo.png" alt="logo" class="w-24 mr-5">
+                    <div class="">
+                        <h1 class="text-white font-bold text-5xl">Potabi Systems</h1>
+                        <h2 class="text-white  text-2xl">Potential and ability. Pretty. Powerful.</h2>
+                        <div class="flex gap-2 z-10 items-center my-5">
+                            <a class="font-bold rounded-lg px-2 py-1 bg-gray-100 border-2 text-gray-900 border-gray-100 hover:bg-gray-300 hover:border-gray-300" href="#download">Download</a>
+                            <a class="font-bold rounded-lg px-2 py-1 border-2 text-white border-gray-100 hover:border-gray-300 hover:text-gray-300 hover:bg-gray-700" href="#about">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section id="about" class="w-full h-screen flex items-center justify-center py-10 bg-gray-700 text-white text-center">
-            <div class="w-8/12 break-words">
-                <h2 class="text-xl font-bold underline mb-2">About The Project</h2>
-                <p class="text-md">
-                    The Potabi Systems project is a FreeBSD-based operating system that works to
-                    make a fantastic desktop operating system experience, based around mostly
-                    permissive licensed software. The project is also working on it's sister project 
-                    CoreNGS, which is a fork from FreeBSD with the goal of being more independent.
-                    Potabi Systems believes independence and self-sustainability is an important 
-                    aspect of software. Our developers are mostly inspired by Linux Mint and Pop!_OS.
-                    <br><br>
-                    The Potabi Systems project aims to be safe without being intrusive. To be smart
-                    without being complicated. To be interesting without being trendy. To be simple
-                    without being vague.
-                </p>
+        <!-- About -->
+        <section class="px-10 py-5" id="about">
+            <div class="flex flex-col md:flex-row items-center">
+                <div>
+                    <h1 class="font-bold text-xl">Our mission</h1>
+                    <p class="text-lg">is to bring higher security, and an easier experience, to desktop and mobile computing. Based off of FreeBSD, with emphasis on simplicity for our user experience and design, Potabi is an excellent vendor for open-source desktop and mobile operating systems.</p>
+                </div>
+                <img class="w-4/5 md:w-3/5" src="assets/graphics/Enterprise.svg" alt="Enterprise.svg">
             </div>
+            <p class="text-center py-10">
+                The Potabi Systems project is a FreeBSD-based operating system that works to make a fantastic desktop operating system experience, based around mostly permissive licensed software. The project is also working on it's sister project CoreNGS, which is a fork from FreeBSD with the goal of being more independent. Potabi Systems believes independence and self-sustainability is an important aspect of software. Our developers are mostly inspired by Linux Mint and Pop!_OS.
+
+                The Potabi Systems project aims to be safe without being intrusive. To be smart without being complicated. To be interesting without being trendy. To be simple without being vague. 
+            </p>
         </section>
 
-        <section id="get" class="w-full h-screen flex items-center justify-center py-10 bg-white text-black text-center">
-            <div class="w-8/12">
-                <div class="break-words">
-                    <h2 class="text-xl font-bold underline mb-2">Download</h2>
-                    <p class="text-md">
-                        Potabi Systems is currently only available on desktop, but a mobile version is planned.
-                    </p>
-                </div>
-                <div class="sm:flex gap-5">
-                    <div class="sm:w-6/12 py-3 rounded-xl my-5 bg-gray-300">
-                        <h3 class="text-lg">Desktop</h3>
-                        <p class="text-center italic font-bold">Version: Beta-4 1.0 Luna</p>
-                        <div class="py-5">
-                            <a class="button py-2 px-10 sm:px-5 mx-2 bg-pink-900 hover:bg-pink-700 text-white" href="https://github.com/Potabi/release/releases/download/b4_1.0a-release/potabi-lumina-b4_1.0a_Luna.iso">Download</a>
-                            <br class="sm:hidden"><br class="sm:hidden">
-                            <a class="button py-2 px-10 sm:px-5 mx-2 text-white bg-gray-900 hover:bg-gray-700" href="https://wiki.potabi.com/wiki/Potabi_Systems_B4-1.0A_Release">Release Notes</a>
-                        </div>
+        <!-- Download -->
+        <section class="px-10 py-5" id="download">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-5">
+                <div class="w-4/5 md:w-2/5 bg-gray-300 rounded-lg text-center">
+                    <img class="w-4/5 md:w-2/5 mx-auto" src="assets/graphics/Multimedia.svg" alt="desktop">
+                    <h1>Desktop Edition: Beta-4 1.0A Luna</h1>
+                    <div class="flex gap-2 justify-center py-2">
+                        <a href="https://github.com/Potabi/release/releases/download/b4_1.0a-release/potabi-lumina-b4_1.0a_Luna.iso" class="font-bold rounded-lg px-2 py-1 bg-gray-700 border-2 text-gray-200 border-gray-700 hover:bg-gray-900 hover:border-gray-900">Download</a>
+                        <a href="https://wiki.potabi.com/wiki/Potabi_Systems_B4-1.0A_Release" class="font-bold rounded-lg px-2 py-1 bg-blue-700 border-2 text-gray-200 border-blue-700 hover:bg-blue-900 hover:border-blue-900">Release Notes</a>
                     </div>
-                    <div class="sm:w-6/12 py-3 rounded-xl my-5 bg-gray-300">
-                        <h3 class="text-lg">Mobile</h3>
-                        <p class="text-center italic font-bold">Version: Coming Soon</p>
+                </div>
+                <div class="w-4/5 md:w-2/5 bg-gray-300 rounded-lg text-center">
+                    <img class="w-4/5 md:w-2/5 mx-auto" src="assets/graphics/App development.svg" alt="mobile">
+                    <h1>Mobile Edition: Coming Soon</h1>
+                    <div class="flex gap-2 justify-center py-2">
+                        <a href="#" class="font-bold rounded-lg px-2 py-1 bg-gray-700 border-2 text-gray-200 border-gray-700 hover:bg-gray-900 hover:border-gray-900">Download</a>
+                        <a href="#" class="font-bold rounded-lg px-2 py-1 bg-blue-700 border-2 text-gray-200 border-blue-700 hover:bg-blue-900 hover:border-blue-900">Release Notes</a>
                     </div>
                 </div>
             </div>
