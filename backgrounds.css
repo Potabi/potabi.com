@@ -1,0 +1,9 @@
+.bg-index{
+    background-image: url("/assets/backgrounds/index.html.png")
+}
+
+.bg-image{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -7,11 +7,12 @@
         <title>Welcome | Potabi Technological Developments, LLC</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.2/dist/flowbite.min.css" />
+        <link rel="stylesheet" href="/backgrounds.css">
     </head>
     <body class="m-0 p-0 overflow-x-hidden h-screen">
 
         <!-- Navigation / Banner -->
-        <header class="bg-blue-900 h-3/6">
+        <header class="bg-image bg-index h-3/6">
             <nav class="w-screen flex justify-between">
                 <div class="py-2 text-white ml-5">
                     <a class="flex items-center text-xl font-bold" href="https://potabi.com">
@@ -20,14 +21,14 @@
                     </a>
                 </div>
                 <div class="flex">
-                    <button data-dropdown-toggle="potabiSystems" class="text-white px-5 py-2 hover:bg-blue-800" type="button">Potabi Systems</button>
+                    <button data-dropdown-toggle="potabiSystems" class="text-white px-5 py-2 hover:bg-pink-800" type="button">Potabi Systems</button>
                     <div id="potabiSystems" class="hidden">
                         <ul class="bg-pink-900 rounded-lg text-white shadow py-1.5">
                             <li><a href="/systems/desktop" class="block px-5 py-2 hover:bg-pink-700">Desktop</a></li>
                             <li><a href="/systems/mobile" class="block px-5 py-2 hover:bg-pink-700">Mobile</a></li>
                         </ul>
                     </div>
-                    <button data-dropdown-toggle="otherProjects" class="text-white px-5 py-2 hover:bg-blue-800" type="button">Projects</button>
+                    <button data-dropdown-toggle="otherProjects" class="text-white px-5 py-2 hover:bg-pink-800" type="button">Projects</button>
                     <div id="otherProjects" class="hidden">
                         <ul class="bg-pink-900 rounded-lg text-white shadow py-1.5">
                             <li><a href="/projects/corengs" class="block px-5 py-2 hover:bg-pink-700">CoreNGS</a></li>
@@ -74,7 +75,7 @@
         </section>
 
         <!-- Footer -->
-        <footer class="bg-gray-300 flex justify-between px-5 py-2 w-screen bottom-0">
+        <footer class="bg-gray-300 flex justify-between px-5 py-2 w-screen bottom-0 gap-2">
             <!-- Copyrights -->
             <div>
                 <p>&copy; Potabi Technological Developments, LLC</p>
