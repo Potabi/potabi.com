@@ -5,7 +5,7 @@
     import Carousel from "./components/Carousel.svelte"
     import About from "./components/About.svelte"
     import Potabi from "./components/Potabi.svelte";
-import Footer from "./components/Footer.svelte"
+    import Footer from "./components/Footer.svelte"
 </script>
 
 <main>

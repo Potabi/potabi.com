@@ -18,8 +18,11 @@
         <img class="w-3/5 md:w-2/5 lg:w-1/5" src="{GFXMultimedia}" alt="Graphics-Multimedia">
     </div>
     <div class="flex items-center justify-center">
+        <a href="https://buy.stripe.com/8wMfZTeON7z86xacMN" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+            Buy Potabi Systems
+        </a>
         <a href="{ISO}" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
-            Download Desktop
+            Free Download Desktop
         </a>
         <a href="#" class="focus:outline-none text-white bg-red-300 hover:bg-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" disabled>
             Download Mobile
